@@ -6,7 +6,7 @@ categories: jekyll update
 permalink: /ability-system
 ---
 
-**Have you ever thought you found the best solution for your needs, just to realize later it was actually the opposite of that?** Come with me on my journey of figuring out how to build an ability system from scratch.
+**Have you ever thought you found the best solution for your needs, just to realize later it was actually the opposite of that?** If you want to learn how to build an ability system from scratch, join me on my journey of figuring out what's wrong and what's right.
 
 I am a second-year programmer at BUas Games, and over the past 6 weeks I have been working on a **tool that allows designers to create abilities modularly** in my C++ ECS-based custom engine for a top-down combat game.
 
@@ -67,16 +67,16 @@ struct PlayerStatsComponent
 };
 ```
 
-Both current and base values are needed because we need a reference point - for example if you have a buff that increases the player's movement by `30%` `from 10 to 13`, well how do you undo that when the buff duration is over? Because if you decrease the same percentage from the current movement speed - `30% from 13` - you get `3.9`, which would result in `9.1` instead of `10`. That is why we need the base stat as well - to have a static reference point.
+Both current and base values are needed because we need a reference point - for example if you have a buff that increases the player's movement by `30%` `from 10 to 13`, how will you then undo that when the buff duration is over? Because if you decrease the same percentage from the current movement speed - `30% from 13` - you get `3.9`, which would result in `9.1` instead of `10`. That is why we need the base stat as well - to have a static reference point.
 
-There is also the state which is a `bitmask` where the different states of the player can be active or not based on the flags. But this can all be understood better through the **Player Stats Window Info Tab**:
+There is also the state which is a `bitmask` where the different states of the player can be active or not based on the flags. But this can all be understood better through the **Player Stats Window**, specifically the **Info Tab**: 
 
 ![player_stats_window_info](../assets/images/player_stats_window_info.png)
 ![player_stats_window_edit](../assets/images/player_stats_window_edit.png)
 
 As well as giving the designer a way to edit the base stats of the player in-engine through the **Edit Tab**.
 
-But how does one actually affect these stats through abilities? Well it is one of the choices in the user interface - the **Stat Affected** drop-down menu:
+But how does one actually affect these stats through abilities? → It is one of the choices in the user interface - the **Stat Affected** drop-down menu:
 
 ![stat_affected](../assets/images/stat_affected.png)
 
@@ -101,7 +101,7 @@ But `ImGui` needs strings to be able to print out the options, so we also store 
     int m_statsSelectedItem = 0;
 ```
 
-This is not ideal, as they all need to be kept in sync. It is not in my nature to utilize a suboptimal method, but sometimes we need to make this kind of choices for the project to progress. But let's not dwell on the dwell on the bad, let's move on to the actual implementation of the abilities!
+This is not ideal, as they all need to be kept in sync. Although it is not the optimal solution, sometimes we need to make this kind of choices for the project to progress. But let's not dwell on the bad, let's move on to the actual implementation of the abilities.
 
 After the user creates a new ability we need a way to store it - that's where the **Ability Settings** come in! This is where all of the drop-down menus and inputs are saved:
 
@@ -143,9 +143,9 @@ That is also visualized in-engine through the Resource Viewer:
 
 ![ability_manager](../assets/images/ability_manager.png)
 
-This way the user has a way of overviewing all of their created abilities, as well as a means to delete them.
+This way the user has a way of overviewing all of their created abilities, i addition to facilitating their potential deletion.
 
-But how does one assign abilities to a player to use? That is where the **Player Stats Window Abilities Tab** comes in:
+But how does one assign abilities to a player to use? That is where the **Player Stats Window** comes in again with the **Abilities Tab**:
 
 ![player_stats_window_abilities](../assets/gifs/player_stats_window_abilities.gif)
 
@@ -163,7 +163,7 @@ struct AbilitiesOnPlayerComponent
 };
 ```
 
-I am storing an unordered map of strings as keys - the ability name - that have associated input bindings. If you remember in the **Ability Manager** we also use the ability names as keys, so this is how all the players retrieve the data for an ability, without any unnecessary memory duplication where each player stores that data for themselves - this way multiple players can use the same ability!
+I am storing an unordered map of strings as keys - the ability name - that have associated input bindings. If you remember in the **Ability Manager** we also use the ability names as keys, so this is how all the players retrieve the data for an ability, without any unnecessary memory duplication where each player stores that data for themselves - this way multiple players can use the same ability.
 
 Coming back to the UI - these are quite a bit of menus and windows, for this reason I gave the user the option to turn each one off if they wish to. This is an overview of all of the UI:
 
@@ -338,11 +338,11 @@ void bee::PhysicsSystem2D::Update(const float& dt)
 
 I made my own simple 2D physics system that works great for my use case, but that was not the case from the beginning. This is where `the wrong way` part of the title comes in.
 
-When I first started the project I knew my target is a 3D game, so I assumed I need a 3D physics system to support my project. So I started researching different 3D physics libraries, weighing different aspects to choose the best fit for my use case, until I eventually decided on <a href="https://github.com/jrouwe/JoltPhysics">Jolt Physics</a>. I spent half of my project integrating and using Jolt, considerably slowing down my progress due to its complexity. That was until I took a step back to assess the situation - I was causing more hard than good.
+When I first started the project I knew my target is a 3D game, so I assumed I need a 3D physics system to support my project. So I started researching different 3D physics libraries, weighing different aspects to choose the best fit for my use case, until I eventually decided on <a href="https://github.com/jrouwe/JoltPhysics">Jolt Physics</a>. I spent half of my project integrating and using Jolt, considerably slowing down my progress due to its complexity. That was until I took a step back to assess the situation - I was causing more harm than good.
 
-After rethinking my project I realized that I do not actually need 3D physics! The fact that I am using 3D graphics does not stop me from utilizing 2D physics, something that I did not realize from the beginning.
+After rethinking my project I realized that I do not actually need 3D physics.The fact that I am using 3D graphics does not stop me from utilizing 2D physics, something that I did not realize from the beginning.
 
-Now switching to a completely different physics system mid-project sounded scary, but I decided to not let myself be intimidated by change and go for it! I assessed the situation, and it looked like the time and effort required to make the change will be paid off in the long run - and in the end it did! I even decided to make my own 2D physics system instead of using an already existing library to ensure maximum suitability for my needs. For example, I do not need any collision resolution for my system, so I only have collision detection, or all my physics body shapes are circles/disks.
+Now switching to a completely different physics system mid-project sounded scary, but I decided to not let myself be intimidated by change and go for it. I assessed the situation, and it looked like the time and effort required to make the change will be paid off in the long run - and in the end it did! I even decided to make my own 2D physics system instead of using an already existing library to ensure maximum suitability for my needs. For example, I do not need any collision resolution for my system, so I only have collision detection, or all my physics body shapes are circles/disks.
 
 ![physics_bodies](../assets/gifs/physics_bodies.gif)
 
