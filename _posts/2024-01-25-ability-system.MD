@@ -143,7 +143,7 @@ That is also visualized in-engine through the Resource Viewer:
 
 ![ability_manager](../assets/images/ability_manager.png)
 
-This way the user has a way of overviewing all of their created abilities, i addition to facilitating their potential deletion.
+This way the user has a way of overviewing all of their created abilities, in addition to facilitating their potential deletion.
 
 But how does one assign abilities to a player to use? That is where the **Player Stats Window** comes in again with the **Abilities Tab**:
 
