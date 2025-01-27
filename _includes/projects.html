@@ -1,13 +1,13 @@
-<section class="hero is-fullheight" id="blog">
+<section class="hero is-fullheight" id="projects">
     <div class="hero-body">
         <div class="container">
-            {% include blogpage-heading.html %}
+            {% include projects-heading.html %}
         </div>
     </div>
     <div id="results-container"></div>
-    <!--Blog Cards Section-->
+    <!--Project Cards Section-->
     {% for post in site.posts %}
-        {% include blog-card.html %}
+        {% include project-card.html %}
     {% endfor %}
     </div>
 </section>
