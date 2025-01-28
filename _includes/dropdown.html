@@ -3,17 +3,10 @@
         MORE
     </a>
     <div class="navbar-dropdown has-background-black is-left">
-        {% for sitepage in site.html_pages %}
-        {% unless sitepage.url == '/' or sitepage.url == '/404' %}
-        <a href="{{sitepage.url | absolute_url}}"
-            class="navbar-item has-text-grey-light {% if page.url == sitepage.url | absolute_url  %}is-active{% endif %}">
-            {{sitepage.title}}
+        {% assign resume_page = site.pages | where: "url", "/resume" | first %}
+        <a href="{{ '/resume' | absolute_url }}"
+            class="navbar-item has-text-grey-light {% if page.url == '/resume' %}is-active{% endif %}">
+            {{ resume_page.title | default: "Resume title not working" }}
         </a>
-        {% endunless %}
-        {% endfor %}
-        <!-- <hr class="navbar-divider">
-    <a class="navbar-item">
-      Report an issue
-    </a> -->
     </div>
 </div>
