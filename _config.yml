@@ -11,11 +11,11 @@ title: Amzy Amalia Zarcu
 # Description of the Site
 description: Game Programming Portfolio
 # URL of Image of the Site
-site-image: ../assets/images/giornodots.png
+site-image: ../assets/images/az.png
 # Keywords of the Site
 site-keywords: Portfolio, Game, Programming, Amzy, Amalia, Zarcu
 # URL for the Image of custom Favicon
-favicon-url: ../assets/images/giornodots.png
+favicon-url: ../assets/images/az.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: ../images/IntakeCyberpunkScreenshot.png
@@ -23,16 +23,16 @@ heroimage: ../images/IntakeCyberpunkScreenshot.png
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
 email: amalia.zarcu@gmail.com
-facebook_username: /
-twitter_username: /
-instagram_username: /
-linkedin_username: Amalia (Amzy) Zarcu
+facebook_username: 
+twitter_username: 
+instagram_username: 
+linkedin_username: amzy-amalia-zarcu
 github_username:  amzy55
-youtube_channel_id: /
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+youtube_channel_id: 
+reddit_username: 
+behance_username: 
+dribbble_username: 
+spotify_username: 
 
 # Google Analytics
 google-analytics: /
