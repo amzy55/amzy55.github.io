@@ -1,0 +1,1 @@
+The site was made by modifying the [WhatATheme](https://github.com/thedevslot/WhatATheme) [Jekyll](https://jekyllrb.com/) template made by [TheDevsLot](https://www.twitter.com/thedevslot).
