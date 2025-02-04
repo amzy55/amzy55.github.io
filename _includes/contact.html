@@ -26,7 +26,7 @@
             <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
                 You Can find me here
             </h3>
-            <div class="column is-full is-size-3">
+            <div class="column is-full is-size-1">
                 {% unless site.facebook_username == %}
                 <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-black"><i class="fab fa-facebook"></i></a>
                 {% endunless %}
@@ -56,6 +56,9 @@
                 {% endunless %}
                 {% unless site.spotify_username ==  %}
                 <a href="http://open.spotify.com/user/{{site.spotify_username}}" target="_blank" class="has-text-black"><i class="fab fa-spotify"></i></a>
+                {% endunless %}
+                {% unless site.itchio_username ==  %}
+                <a href="https://{{site.itchio_username}}.itch.io/" target="_blank" class="has-text-black"><i class="fab fa-itch-io"></i></a>
                 {% endunless %}
             </div>
         </div>
