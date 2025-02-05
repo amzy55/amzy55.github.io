@@ -1,7 +1,7 @@
 ---
-title: Light Thief 2D Raytracing
+title: RTS on RaspberryPi
 layout: project
-project-image: ../assets/images/LightThief.png
+project-image: ../assets/images/RTSThumbnail.png
 description: Jekyll is a static site generator. You give it text written in your favorite
   markup language and it uses layouts to create a static website.
 tags:
