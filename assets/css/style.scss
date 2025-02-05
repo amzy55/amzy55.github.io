@@ -91,14 +91,14 @@ a.navbar-item.is-active {
         justify-content: center;
     }
 
-    svg {
+    i.fab, i.fas {
         transition: all 0.15s ease-in-out;
         margin: auto 0.75vmax;
-
-        &:hover {
-            transform: scale(1.20);
-            filter: opacity(0.60);
-        }
+    }
+    
+    i.fab:hover, i.fas:hover {
+        transform: scale(1.20);
+        filter: opacity(0.60);
     }
 
     hr {
