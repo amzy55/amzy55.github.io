@@ -1,5 +1,5 @@
 ---
-title: Light Thief 2D Raytracing
+title: Light Thief 2D Ray Tracing
 layout: project
 project-image: ../assets/images/LightThief.png
 description: Jekyll is a static site generator. You give it text written in your favorite

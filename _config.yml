@@ -13,7 +13,7 @@ description: Game Programming Portfolio
 # URL of Image of the Site
 site-image: ../assets/images/az.png
 # Keywords of the Site
-site-keywords: Portfolio, Game, Programming, Amzy, Amalia, Zarcu
+site-keywords: Portfolio, Game, Programming, Amzy, Amalia, Zarcu, c++, Gameplay
 # URL for the Image of custom Favicon
 favicon-url: ../assets/images/az.png
 
@@ -37,8 +37,6 @@ disqus-shortname: /
 author-name: Amzy Amalia Zarcu
 # URL for the Image of the Author
 author-image: ../assets/images/MeZoom.png
-# 60 Words About the Author
-author-about: Info about me to add Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://www.linkedin.com/in/amalia-amzy-zarcu-001b57295/
 
