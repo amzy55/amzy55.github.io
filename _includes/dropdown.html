@@ -3,10 +3,13 @@
         MORE
     </a>
     <div class="navbar-dropdown has-background-black is-left">
-        {% assign resume_page = site.pages | where: "url", "/resume" | first %}
         <a href="{{ '/resume' | absolute_url }}"
             class="navbar-item has-text-grey-light {% if page.url == '/resume' %}is-active{% endif %}">
-            {{ resume_page.title | default: "Resume title not working" }}
+            Resume
+        </a>
+        <a href="{{ '/more-about-me' | absolute_url }}"
+            class="navbar-item has-text-grey-light {% if page.url == '/more-about-me' %}is-active{% endif %}">
+            More About Me
         </a>
     </div>
 </div>
