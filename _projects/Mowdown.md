@@ -1,7 +1,7 @@
 ---
 title: Mowdown
 layout: project
-project-image: ../assets/images/MowDownLogo.png
+project-image: ../assets/images/MowdownLogoWithPattern.png
 description: This post will guide you to install WhatATheme on your Jekyll site, follow
   the easy steps to set up WhatATheme.
 tags:
