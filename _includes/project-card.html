@@ -7,19 +7,16 @@
   <div class="column has-text-left">
     <h1 class="title is-size-4-touch">{{ project.title }}</h1>
     <div class="content has-text-grey">
-      {{ project.content | truncate: 300 | strip_html | strip_newlines | strip | escape }}
-      <hr class="has-background-grey">
-      <span class="has-text-grey">
-        Published on
-        <span class="has-text-weight-semibold">{{ project.date | date: "%-B %d, %Y" }}</span>
-      </span>
-      | <i class="fas fa-clock"></i>
-      <span class="has-text-weight-semibold">
-        {% assign words = project.content | number_of_words %}
-        {% unless content.size == 0 %}
-          {{ words | divided_by:180 }} min
-        {% endunless %}
-      </span> read
-    </div>
+      {{ project.description }}
+      <hr class="has-background-grey" style="margin: 6px">
   </div>
+
+  <div class="content has-text-grey" style="margin: 4px">
+    <p>
+    [ ] Tool
+    <br>
+    [ ] Team Size
+  </p>
+  </div>
+</div>
 </a>
