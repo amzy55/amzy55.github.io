@@ -7,11 +7,16 @@ engine-tool: Custom Engine (Coral)
 year: 2024
 team-size: 10 team members
 duration: 8 weeks
-key-responsibilities: >
+key-responsibilities-1: >
   <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
+    <li>Main Gameplay Programmer</li>
+    <li>Weapon System</li>
+    <li>Upgrade System</li>
+  </ul>
+key-responsibilities-2: >
+  <ul>
+    <li>UI</li>
+    <li>Supporting Designers to Learn our Custom Engine</li>
   </ul>
 tags:
 - jekyll
