@@ -3,6 +3,14 @@
 
 @import "main.scss";
 
+a {
+    color:  rgb(228, 0, 137)
+}
+
+.has-text-link {
+    color: rgb(228, 0, 137) !important
+}
+
 #navbar {
     opacity: 0.95;
 }
@@ -66,6 +74,7 @@ a.navbar-item.is-active {
 }
 .subtitle {
     letter-spacing: 0.25rem;
+    color: rgb(228, 0, 137);
 }
 
 #about {
@@ -418,7 +427,7 @@ a.navbar-item.is-active {
     .container {
         margin: 2.5rem auto;
         word-break: break-word;
-        max-width: -webkit-fill-available;
+        max-width: 1000px;
     }
 
     #disqus_thread {
