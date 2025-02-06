@@ -2,8 +2,11 @@
 title: Lichgate
 layout: project
 project-image: ../assets/images/LichgatePoweredByCoralEngine.png
-description: Jekyll is a static site generator. You give it text written in your favorite
-  markup language and it uses layouts to create a static website.
+description: Jekyll is a static site generator. You give it
+engine-tool: Custom Engine (Coral)
+year: 2024
+team-size: 10 team members
+duration: 8 weeks
 tags:
 - jekyll
 - informative

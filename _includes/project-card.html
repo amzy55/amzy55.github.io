@@ -11,12 +11,19 @@
       <hr class="has-background-grey" style="margin: 6px">
   </div>
 
-  <div class="content has-text-grey" style="margin: 4px">
-    <p>
-    [ ] Tool
-    <br>
-    [ ] Team Size
-  </p>
-  </div>
+  <div class="columns is-vcentered">
+    <!-- Column 1 -->
+    <div class="column content has-text-grey is-narrow" style="margin: 4px">
+      <span><i class="fa-solid fa-hammer"></i> {{ project.engine-tool }}</span>
+      <span><i class="fa-solid fa-calendar-days"></i> {{ project.year }}</span>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="column content has-text-grey is-narrow" style="margin: 4px">
+      <span><i class="fa-solid fa-users"></i> {{ project.team-size }}</span>
+      <span><i class="fa-regular fa-clock"></i> {{ project.duration }}</span>
+    </div>
+
+</div>
 </div>
 </a>
