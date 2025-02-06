@@ -2,10 +2,10 @@
 title: Lichgate
 layout: project
 project-image: ../assets/images/LichgatePoweredByCoralEngine.png
-description: Jekyll is a static site generator. You give it
+description: An action rogue-like where you must grow stronger to vanquish the undead.
 engine-tool: Custom Engine (Coral)
 year: 2024
-team-size: 10 team members
+team-size: 10
 duration: 8 weeks
 tags:
 - jekyll

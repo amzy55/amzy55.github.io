@@ -8,20 +8,20 @@
     <h1 class="title is-size-4-touch">{{ project.title }}</h1>
     <div class="content has-text-grey">
       {{ project.description }}
-      <hr class="has-background-grey" style="margin: 6px">
+      <hr class="has-background-grey-darker" style="margin: 6px">
   </div>
 
   <div class="columns is-vcentered">
     <!-- Column 1 -->
     <div class="column content has-text-grey is-narrow" style="margin: 4px">
-      <span><i class="fa-solid fa-hammer"></i> {{ project.engine-tool }}</span>
-      <span><i class="fa-solid fa-calendar-days"></i> {{ project.year }}</span>
+      <span><i class="icon fa-solid fa-hammer"></i> {{ project.engine-tool }}</span>
+      <span><i class="icon fa-solid has-text-grey-darker fa-calendar-days"></i> {{ project.year }}</span>
     </div>
 
     <!-- Column 2 -->
     <div class="column content has-text-grey is-narrow" style="margin: 4px">
-      <span><i class="fa-solid fa-users"></i> {{ project.team-size }}</span>
-      <span><i class="fa-regular fa-clock"></i> {{ project.duration }}</span>
+      <span><i class="icon fa-solid has-text-grey-darker fa-users"></i> {{ project.team-size }}</span>
+      <span><i class="icon fa-regular has-text-grey-darker fa-clock"></i> {{ project.duration }}</span>
     </div>
 
 </div>
