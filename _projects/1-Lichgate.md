@@ -1,5 +1,5 @@
 ---
-title: Lichgate / Coral Engine
+title: Lichgate
 layout: project
 project-image: ../assets/images/LichgatePoweredByCoralEngine.png
 description: Jekyll is a static site generator. You give it text written in your favorite
