@@ -2,7 +2,7 @@
 title: Ability System V1 in My Custom Engine
 layout: project
 project-image: ../assets/images/AbilitySystemThumbnail.png
-description: 
+description: Cool description
 engine-tool: 
 year: 
 team-size: 
@@ -20,5 +20,5 @@ key-responsibilities-2: >
     <li>Item 3</li>
   </ul>
 tags:
- 
+has-content: no
 ---

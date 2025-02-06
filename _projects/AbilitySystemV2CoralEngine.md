@@ -20,5 +20,6 @@ key-responsibilities-2: >
     <li>Item 3</li>
   </ul>
 tags:
+has-content: no
 
 ---
