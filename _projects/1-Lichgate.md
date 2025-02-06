@@ -5,8 +5,14 @@ project-image: ../assets/images/LichgatePoweredByCoralEngine.png
 description: An action rogue-like where you must grow stronger to vanquish the undead.
 engine-tool: Custom Engine (Coral)
 year: 2024
-team-size: 10
+team-size: 10 team members
 duration: 8 weeks
+key-responsibilities: >
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
 tags:
 - jekyll
 - informative

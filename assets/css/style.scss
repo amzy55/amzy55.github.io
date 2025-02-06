@@ -164,6 +164,10 @@ a.navbar-item.is-active {
             margin: 0.5rem;
         }
 
+        .content ul li::marker {
+            color: rgb(54, 54, 54);
+        }
+
         .column {
             display: grid;
 
@@ -178,7 +182,13 @@ a.navbar-item.is-active {
         .icon {
             color: rgb(54, 54, 54);
             font-size: 22px;
-            margin: 0.4rem
+            margin: 0.25rem
+        }
+
+        .vertical-line {
+            width: 1px;
+            height: auto;
+            background-color: rgb(54, 54, 54);
         }
     }
 }
