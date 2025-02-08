@@ -1,34 +1,38 @@
 <section class="hero is-fullheight has-text-centered" id="contact">
     <div class="hero-body">
         <div class="container">
-            {% unless site.email == %}
-            <a id="contact-button" href="mailto:{{site.email}}"
-                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
-                target="_blank">
-                <i class="fas fa-envelope"></i>Send me an Email
-            </a>
-            {% endunless %}
+            <div class="is-size-5 has-text-black is-uppercase has-text-weight-normal is-outlined has-text-weight-semibold">
+                <i class="fas fa-envelope" style="margin-left: 0px; transform: translate(0px, 1.15px);"></i>
+                Send me an email
+            </div>
+            <div>
+                <a href="mailto:{{site.email}}" target="_blank" class="has-text-grey">
+                    {{site.email}}
+                </a>
+            </div>
+            
             <hr>
+
             <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-                You Can find me here
+                You can find me here
             </h3>
-            <div class="column is-full is-size-1">
-                {% unless site.linkedin_username ==  %}
-                <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black">
+            <div class="columns is-full is-size-1" style="justify-content: center;">
+            <div class="column is-narrow">
+                <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                {% endunless %}
-                {% unless site.github_username ==  %}
-                <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black">
-                    <i class="fab svg fa-github"></i>
-                </a>
-                {% endunless %}
-                {% unless site.itchio_username ==  %}
-                <a href="https://{{site.itchio_username}}.itch.io/" target="_blank" class="has-text-black">
-                    <i class="fab svg fa-itch-io"></i>
-                </a>
-                {% endunless %}
             </div>
+            <div class="column is-narrow">
+                <a href="http://www.github.com/{{site.github_username}}" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="column is-narrow">
+                <a href="https://{{site.itchio_username}}.itch.io/" target="_blank">
+                    <i class="fab fa-itch-io"></i>
+                </a>
+            </div>
+        </div>
         </div>
     </div>
 </section>
