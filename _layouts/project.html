@@ -15,17 +15,45 @@ layout: compress
   <section class="hero is-fullheight has-text-centered" id="project">
     <div class="hero-body">
       <div class="container">
-      <!-- Title -->
+        <!-- Title -->
         <a href="{{page.url | relative_url}}" class="has-text-black" id="title">
           <h1 class="title has-text-centered is-2 has-text-weight-semibold ">{{page.title}}</h1>
           <hr class="has-background-black">
         </a>
 
+        <!-- Description -->
+        <div class="content">
+          {{ page.description }}
+          <hr class="has-background-grey-darker" style="height: 1.5px; width: 80%">
+        </div>
+
         <!-- Info & GIF -->
         <div class="columns">
           <!-- Info -->
           <div class="column">
-            Hello
+
+              <!-- Stats -->
+              <div class="content is-one-third has-text-left" style="margin: 4px">
+                <h4 style="margin: 1px; text-align: center;">Stats</h4>
+                <div><i class="icon fa-regular has-text-grey-darker fa-circle-question"></i> {{ page.project-type }}</div>
+                <div><i class="icon fa-solid has-text-grey-darker fa-hammer"></i> {{ page.engine-tool }}</div>
+                <div><i class="icon fa-solid has-text-grey-darker fa-calendar-days"></i> {{ page.year }}</div>
+                <div><i class="icon fa-solid has-text-grey-darker fa-users"></i> {{ page.team-size }}</div>
+                <div><i class="icon fa-regular has-text-grey-darker fa-clock"></i> {{ page.duration }}</div>
+              </div>
+
+              <!-- Key Responsibilities -->
+              <div class="content">
+                <h4 style="text-align: center;">Key Responsibilities</h4>
+
+                <!-- List of Responsibilities -->
+                <div class="content has-text-left ">
+                  <ul>
+                  {{ page.key-responsibilities-1 }}
+                  {{ page.key-responsibilities-2 }}
+                  </ul>
+                </div>
+              </div>
           </div>
         
           <!-- GIF -->
@@ -33,6 +61,7 @@ layout: compress
             <img src="{{page.project-gif}}" alt="Project GIF">
           </div>
         </div>
+        <hr class="has-background-grey-darker" style="height: 1.5px;">
 
         <!-- Content -->
         <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">

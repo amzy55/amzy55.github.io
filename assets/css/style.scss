@@ -420,6 +420,10 @@ a.navbar-item.is-active {
     #disqus_thread {
         margin-top: 5vmax;
     }
+
+    .content ul li::marker {
+        color: rgb(54, 54, 54);
+    }
 }
 
 #page-section {
