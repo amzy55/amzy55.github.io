@@ -3,6 +3,7 @@ title: Light Thief 2D Ray Tracing
 layout: project
 project-image: ../assets/images/LightThief.png
 description: 
+project-type: 
 engine-tool: 
 year: 
 team-size: 

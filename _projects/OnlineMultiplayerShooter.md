@@ -3,6 +3,7 @@ title: Online Multiplayer Shooter
 layout: project
 project-image: ../assets/images/ShooterThumbnail.png
 description: 
+project-type: 
 engine-tool: 
 year: 
 team-size: 

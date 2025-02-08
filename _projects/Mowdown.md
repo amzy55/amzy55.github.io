@@ -3,6 +3,7 @@ title: Mowdown
 layout: project
 project-image: ../assets/images/MowdownLogoWithPattern.png
 description: 
+project-type: 
 engine-tool: 
 year: 
 team-size: 

@@ -3,6 +3,7 @@ title: Ability System V2 in Coral Engine
 layout: project
 project-image: ../assets/images/AbilitySystemV2Thumbnail.png
 description: 
+project-type: 
 engine-tool: 
 year: 
 team-size: 

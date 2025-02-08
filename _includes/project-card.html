@@ -1,49 +1,54 @@
 <a href="{{ project.url | absolute_url }}" class="columns is-vcentered" id="project-card">
-  <div class="column is-one-third-desktop is-one-third-fullhd is-one-third-tablet">
+  <!-- Image -->
+  <div class="column is-two-fifths is-two-fifths-fullhd is-two-fifths-tablet">
     <figure class="image is-16by9">
       <img src="{{ project.project-image }}" alt="{{ project.title }}" style="border-radius: 0.25rem;">
     </figure>
   </div>
+
   <div class="column has-text-left">
+    <!-- Title -->
     <h1 class="title is-size-4-touch">{{ project.title }}</h1>
+
+    <!-- Description -->
     <div class="content has-text-grey">
       {{ project.description }}
       <hr class="has-background-grey-darker" style="height: 1.5px; margin: 6px">
-  </div>
+    </div>
 
-  <div class="columns">
-    
+    <div class="columns">
       <!-- Stats -->
       <div class="column content has-text-grey is-one-third" style="margin: 4px">
         <h4 style="margin: 1px; text-align: center;">Stats</h4>
+        <span><i class="icon fa-regular fa-circle-question"></i> {{ project.project-type }}</span>
         <span><i class="icon fa-solid fa-hammer"></i> {{ project.engine-tool }}</span>
         <span><i class="icon fa-solid has-text-grey-darker fa-calendar-days"></i> {{ project.year }}</span>
         <span><i class="icon fa-solid has-text-grey-darker fa-users"></i> {{ project.team-size }}</span>
         <span><i class="icon fa-regular has-text-grey-darker fa-clock"></i> {{ project.duration }}</span>
       </div>
 
-    <!-- Vertical Line -->
-    <div class="column content is-narrow">
-      <div class="vertical-line"></div>
-  </div>
+      <!-- Vertical Line -->
+      <div class="column content is-narrow">
+        <div class="vertical-line"></div>
+      </div>
 
-    <!-- Key Responsibilities -->
-    <div class="column content is-centered">
-      <h4 style="margin: 1px; text-align: center;">Key Responsibilities</h4>
+      <!-- Key Responsibilities -->
+      <div class="column content is-centered" style="transform: translateY(-5px)">
+        <h4 style="text-align: center;">Key Responsibilities</h4>
 
-      <div class="columns">
+        <div class="columns">
 
-        <!-- Column 1 -->
-        <div class="column content has-text-grey">
-          {{ project.key-responsibilities-1 }}
-        </div>
+          <!-- Column 1 -->
+          <div class="column content has-text-grey">
+            {{ project.key-responsibilities-1 }}
+          </div>
 
-        <!-- Column 2 -->
-        <div class="column content has-text-grey">
-          {{ project.key-responsibilities-2 }}
+          <!-- Column 2 -->
+          <div class="column content has-text-grey">
+            {{ project.key-responsibilities-2 }}
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 </a>
