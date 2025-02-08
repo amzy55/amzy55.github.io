@@ -19,7 +19,6 @@ key-responsibilities-2: >
     <li>Supporting Designers to Learn our Custom Engine</li>
   </ul>
 tags:
-has-content: yes
 ---
 
 <div style="text-align: center;">

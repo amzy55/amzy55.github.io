@@ -20,7 +20,7 @@ layout: compress
           <hr class="has-background-black">
         </a>
 
-        {% if has-content == "no" %}
+        {% unless page.content.size == 0 %}
           <div class="columns is-variable is-5">
             <div class="column is-6">
               <figure class="image is-16by9 has-shadow">
@@ -33,7 +33,7 @@ layout: compress
               {% endunless %}
             </div>
           </div>
-        {% endif %}
+        {% endunless %}
 
         <div class="content has-text-justified-desktop has-text-justified-fullhd has-text-justified has-text-justified-tablet has-text-left-mobile">
           <p>{{ content }}</p>
