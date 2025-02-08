@@ -8,6 +8,7 @@ project-type: Released Game
 engine-tool: Custom Engine (Coral)
 year: 2024
 team-size: 10 team members
+team-breakdown: 10 -> 6 programmers & 4 designers
 duration: 8 weeks
 key-responsibilities-1: >
     <li>Main Gameplay Programmer</li>

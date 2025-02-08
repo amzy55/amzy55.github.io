@@ -7,6 +7,7 @@ description:
 engine-tool: 
 year: 
 team-size: 
+team-breakdown:
 duration:
 key-responsibilities-1: >
     <li>Item 1</li>
