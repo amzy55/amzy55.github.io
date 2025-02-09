@@ -1,8 +1,8 @@
 ---
 title: Mowdown
 layout: project
-project-image: ../assets/images/MowdownThumbnail.png
-project-gif: 
+project-image: /assets/images/MowdownThumbnail.png
+project-gif: /assets/images/Mowdown1.gif
 description: 
 project-type: 
 engine-tool: 
