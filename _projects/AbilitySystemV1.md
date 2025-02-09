@@ -1,10 +1,10 @@
 ---
 title: Ability System V1 - My Custom Engine
 layout: project
-project-image: ../assets/images/AbilitySystemThumbnail.png
-project-gif: 
+project-image: /assets/images/AbilitySystemV1Thumbnail.png
+project-gif: /assets/images/AbilitySystemV1Showcase.gif
 description: "P1: A system that allows the creation and management of abilities with configurable predefined behavior via dynamic ImGui menus. - P2: Custom engine development."
-project-type: Student Project
+project-type: Personal/Student Project
 engine-tool: Custom Engine
 year: 2023-2024
 team-size: Solo
