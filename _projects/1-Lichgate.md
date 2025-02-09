@@ -4,7 +4,7 @@ layout: project
 project-image: /assets/images/LichgatePoweredByCoralEngine.png
 project-gif: /assets/images/lichgate.gif
 description: An action rogue-like where you must grow stronger to vanquish the undead.
-project-type: Released Game
+project-type: Released Student Game
 engine-tool: Custom Engine (Coral)
 year: 2024
 team-size: 10 team members
