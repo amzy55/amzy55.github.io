@@ -1,7 +1,7 @@
 ---
 title: Light Thief 2D Ray Tracing
 layout: project
-project-image: ../assets/images/LightThief.png
+project-image: /assets/images/LightThief.png
 project-gif: 
 description: 
 project-type: 

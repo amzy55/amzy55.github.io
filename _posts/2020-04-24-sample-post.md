@@ -1,7 +1,7 @@
 ---
 title: Sample Post
 layout: post
-post-image: ../assets/images/giornodots.png
+post-image: /assets/images/giornodots.png
 description: A sample post to show how the content will look and how will different
   headlines, quotes and codes will be represented.
 tags:

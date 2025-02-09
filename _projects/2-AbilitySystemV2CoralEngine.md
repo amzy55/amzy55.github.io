@@ -1,7 +1,7 @@
 ---
 title: Ability System V2 - Coral Engine
 layout: project
-project-image: ../assets/images/AbilitySystemV2Thumbnail.png
+project-image: /assets/images/AbilitySystemV2Thumbnail.png
 project-gif: 
 description: "P1: A system that allows the creation and management of abilities expanded with the help of visual scripting. - P2: My contributions to the engine."
 project-type: Student Project

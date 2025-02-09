@@ -36,7 +36,7 @@ disqus-shortname: /
 # Name of the Author
 author-name: Amzy Amalia Zarcu
 # URL for the Image of the Author
-author-image: ../assets/images/MeZoom.png
+author-image: /assets/images/MeZoom.png
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://www.linkedin.com/in/amalia-amzy-zarcu-001b57295/
 

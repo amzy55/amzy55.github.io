@@ -1,7 +1,7 @@
 ---
 title: Online Multiplayer Shooter
 layout: project
-project-image: ../assets/images/ShooterThumbnail.png
+project-image: /assets/images/ShooterThumbnail.png
 project-gif: 
 description: 
 project-type: 

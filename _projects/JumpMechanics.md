@@ -1,7 +1,7 @@
 ---
 title: Jump Mechanics
 layout: project
-project-image: ../assets/images/JumpMechanicsThumbnail.png
+project-image: /assets/images/JumpMechanicsThumbnail.png
 project-gif: 
 description: 
 project-type: 
