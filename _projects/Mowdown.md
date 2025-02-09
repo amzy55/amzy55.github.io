@@ -1,7 +1,7 @@
 ---
 title: Mowdown
 layout: project
-project-image: ../assets/images/MowdownLogoWithPattern.png
+project-image: ../assets/images/MowdownThumbnail.png
 project-gif: 
 description: 
 project-type: 
