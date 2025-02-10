@@ -27,3 +27,7 @@ tags:
 ---
 
 [Coral Engine Github](https://github.com/GuusKemperman/CoralEngine)
+
+<div class="has-text-centered">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z4UFHaJ_ulQ?si=1LSgzoy8_2Ge7DN0" title="Lichgate Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</div>

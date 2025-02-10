@@ -20,4 +20,8 @@ key-responsibilities-2: >
 tags:
 ---
 
+<div class="has-text-centered">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QzNdgcYAYl4?si=wdbvH2UHfL4PfGgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</div>
+
 Lichgate is a top-down action rogue-like where you fight hoards of enemies and upgrade your power to emerge victorious. It was made with [Coral Engine](https://github.com/GuusKemperman/CoralEngine), a custom engine me and my teammates made, but I talk more about that in the [Ability System V2 in Coral Engine](../projects/AbilitySystemV2CoralEngine) project, now it's about the creation of the game itself.
