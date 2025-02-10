@@ -26,3 +26,5 @@ key-responsibilities-2: >
     <li>Serialization</li>
 tags:
 ---
+
+<a href="{{ 'blog/ability-system-v1' | absolute_url }}"> Ability System Blog Post</a>
