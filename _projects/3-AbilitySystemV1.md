@@ -27,4 +27,13 @@ key-responsibilities-2: >
 tags:
 ---
 
-<a href="{{ 'blog/ability-system-v1' | absolute_url }}"> Ability System Blog Post</a>
+<a href="{{ 'blog/ability-system-v1' | absolute_url }}"> Ability System Blog Post 25 Jan 2024</a>
+
+#### Part 1: Ability System 
+
+I created both the user interface, as well as the gameplay logic that powers the abilities, along with its underlying systems.
+
+The abilities have a set of predefined behaviors that the user configure through the <a href="https://github.com/ocornut/imgui" target="_blank">ImGui</a>-based interface. The set of behaviors was self-imposed by doing a <a href="/assets/a-s-v1-post/gifs/BrawlStarsAbilitiesPersonalBreakdown.gif" target="_blank">personal breakdown</a> of the character abilities and stats in <a href="https://supercell.com/en/games/brawlstars/" target="_blank">Brawl Stars</a>.
+
+![ability_creation_menu](/assets/a-s-v1-post/gifs/ability_creation_menu_small.gif)
+![player_stats_window_info](/assets/a-s-v1-post/images/player_stats_window_info.png)

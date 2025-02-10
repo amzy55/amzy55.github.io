@@ -19,7 +19,7 @@ Here is a sneak peek of the finished product:
 
 This project is very valuable for me, as I am aiming to become a Gameplay Programmer, but I am also interested in tools - so for these reasons I will split this article into two sections: <a href="#part1">**Tools & UI**</a> and <a href="#part2">**Ability System**</a>.
 
-Before starting I want to clarify some terminology and establish my code starting point - so what is an **ECS**? ECS stands for **Entity Component System** - instead of working with classes and inheritance like OOP (Object Oriented Programming), we use a DOD approach (Data Oriented Design). In the previous project I worked on, the goal was to build a game engine around this principle: entities that have components with data attached to them and the functionality is given by the systems - I will assume some basic knowledge of the concept moving forward. So that is my code starting point - my own custom engine made with the ECS library <a href="https://github.com/skypjack/entt">EnTT</a>.
+Before starting I want to clarify some terminology and establish my code starting point - so what is an **ECS**? ECS stands for **Entity Component System** - instead of working with classes and inheritance like OOP (Object Oriented Programming), we use a DOD approach (Data Oriented Design). In the previous project I worked on, the goal was to build a game engine around this principle: entities that have components with data attached to them and the functionality is given by the systems - I will assume some basic knowledge of the concept moving forward. So that is my code starting point - my own custom engine made with the ECS library <a href="https://github.com/skypjack/entt" target="_blank">EnTT</a>.
 
 Now that the structure of my engine is established, I can start talking about the main topic of discussion - the **ability creation tool**. I used the terms ability system and ability creation tool interchangeably, but in actuality they are separate components of the overall system. 
 
@@ -29,7 +29,7 @@ In the starting video you can see a few types of abilities that my system suppor
 
 ![ability_creation_menu](/assets/a-s-v1-post/gifs/ability_creation_menu_small.gif)
 
-All of my menus are created using <a href="https://github.com/ocornut/imgui">ImGui</a>, more specifically all the dropdown menus are achieved through the `ImGui::Combo()` method, so that different settings can be selected from a set collection of options. These options are based off the **Ability Settings** and the **Player Stats Component**.
+All of my menus are created using <a href="https://github.com/ocornut/imgui" target="_blank">ImGui</a>, more specifically all the dropdown menus are achieved through the `ImGui::Combo()` method, so that different settings can be selected from a set collection of options. These options are based off the **Ability Settings** and the **Player Stats Component**.
 
 The Player Stats Component is mainly comprised of a set of attributes the player has, that abilities can alter:
 
