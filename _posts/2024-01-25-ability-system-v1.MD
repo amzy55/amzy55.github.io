@@ -341,7 +341,7 @@ void bee::PhysicsSystem2D::Update(const float& dt)
 
 I made my own simple 2D physics system that works great for my use case, but that was not the case from the beginning. This is where `the wrong way` part of the title comes in.
 
-When I first started the project I knew my target is a 3D game, so I assumed I need a 3D physics system to support my project. So I started researching different 3D physics libraries, weighing different aspects to choose the best fit for my use case, until I eventually decided on <a href="https://github.com/jrouwe/JoltPhysics">Jolt Physics</a>. I spent half of my project integrating and using Jolt, considerably slowing down my progress due to its complexity. That was until I took a step back to assess the situation - I was causing more harm than good.
+When I first started the project I knew my target is a 3D game, so I assumed I need a 3D physics system to support my project. So I started researching different 3D physics libraries, weighing different aspects to choose the best fit for my use case, until I eventually decided on <a href="https://github.com/jrouwe/JoltPhysics" target="_blank">Jolt Physics</a>. I spent half of my project integrating and using Jolt, considerably slowing down my progress due to its complexity. That was until I took a step back to assess the situation - I was causing more harm than good.
 
 After rethinking my project I realized that I do not actually need 3D physics.The fact that I am using 3D graphics does not stop me from utilizing 2D physics, something that I did not realize from the beginning.
 
@@ -351,7 +351,7 @@ Now switching to a completely different physics system mid-project sounded scary
 
 I will not go further in depth with the implementation of my physics system, since that is not the main focus, but I wanted to include this part to show that we shouldn't be afraid of admitting our mistakes and changing for the better!
 
-To close off I would like to give credit to <a href="https://docs.unrealengine.com/5.0/en-US/gameplay-ability-system-component-and-gameplay-attributes-in-unreal-engine/">Unreal's Gameplay Ability System</a> for inspiring this project, even though it turned out very differently from the original reference point, as well as <a href="https://www.youtube.com/@BrawlStars">Brawl Stars</a>, the reference game this project is based on.
+To close off I would like to give credit to <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/gameplay-ability-system-for-unreal-engine?application_version=5.0" target="_blank">Unreal's Gameplay Ability System</a> for inspiring this project, even though it turned out very differently from the original reference point, as well as <a href="https://supercell.com/en/games/brawlstars/" target="_blank">Brawl Stars</a>, the reference game this project is based on.
 
 Overall this journey has taught me a lot about self-management and especially realizing that it's ok if things don't turn out as you expect them. Looking forward to keep building amazing things!
 
