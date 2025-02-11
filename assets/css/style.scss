@@ -3,6 +3,11 @@
 
 @import "main.scss";
 
+strong {
+    font-weight: bold;
+    color:  hsl(0, 0%, 29%);
+}
+
 a {
     color:  rgb(228, 0, 137)
 }

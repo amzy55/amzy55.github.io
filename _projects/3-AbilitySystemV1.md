@@ -42,7 +42,7 @@ The abilities have a set of predefined behaviors that the user can configure thr
     <img src="/assets/a-s-v1-post/images/PlayerStatsWindow.png" alt="Missing Media">
 </p>
 
-The ability creation menu is dynamic and displays different settings based on the current settings, as to not overwhelm the user with all the information. Additionally, after play-testing my tool with a few designers, based on their feedback I added quality of life features that account for human error:
+The ability creation menu is **dynamic** and displays different **settings** based on the current settings, as to not overwhelm the user with all the information. Additionally, after **testing** my tool with a few designers, based on their **feedback** I added **quality of life features** that account for human error:
 
 <p style="text-align: center;" class="is-centered">
     <img src="/assets/a-s-v1-post/images/warnings.png" alt="Missing Media">
@@ -77,4 +77,18 @@ auto& abilityComponent = m_registry.emplace<AbilityComponent>
 
 Its runtime behavior is then handled by the **UpdateAbilities** function, that has a lot of conditional code that is improved in the next version (<a href="{{ 'projects/2-AbilitySystemV2CoralEngine' | absolute_url }}">Ability System V2</a>).
 
-For example, for this ability below the system facilitates the creation of three bullets with a certain size
+For example, for this ability below the system facilitates the **`  `** with the following settings:
+
+<p style="text-align: center;">
+    <img src="/assets/a-s-v1-post/images/AbilityCreationSettings3Projectiles.png" alt="Missing Media">
+    <img src="/assets/a-s-v1-post/gifs/AbilitySystemV13Projectiles.gif" alt="Missing Media">
+</p>
+
+The system is in charge of **creating** those **projectiles** with a certain **size and speed** for the physics body, **destroying** them on collision or when the **max range** is reached, **dealing damage** if it encounter a **hostile entity** and everything else that goes into the logic behind an ability.
+
+**Showcase of various abilities and their effects:**
+
+<p style="text-align: center;">
+    <img src="/assets/a-s-v1-post/gifs/ability_system_final_showcase_zoom_2.gif" alt="Missing Media">
+    <img src="/assets/a-s-v1-post/images/VisualEffectsEditor.png" alt="Missing Media">
+</p>
