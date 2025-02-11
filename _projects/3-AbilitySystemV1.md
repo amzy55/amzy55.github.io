@@ -27,13 +27,54 @@ key-responsibilities-2: >
 tags:
 ---
 
-<a href="{{ 'blog/ability-system-v1' | absolute_url }}"> Ability System Blog Post 25 Jan 2024</a>
+This is my first implementation on an ability system, the improved version can be found here - 
+<br><a href="{{ 'projects/2-AbilitySystemV2CoralEngine' | absolute_url }}">Ability System V2 - Coral Engine</a>.
 
-#### Part 1: Ability System 
+Check out the blog I wrote about my process of creating this system here - 
+<br><a href="{{ 'blog/ability-system-v1' | absolute_url }}"> Ability System Blog Post 25 Jan 2024</a>.
 
-I created both the user interface, as well as the gameplay logic that powers the abilities, along with its underlying systems.
+#### Part 1: Ability System & Its Interface
 
-The abilities have a set of predefined behaviors that the user configure through the <a href="https://github.com/ocornut/imgui" target="_blank">ImGui</a>-based interface. The set of behaviors was self-imposed by doing a <a href="/assets/a-s-v1-post/gifs/BrawlStarsAbilitiesPersonalBreakdown.gif" target="_blank">personal breakdown</a> of the character abilities and stats in <a href="https://supercell.com/en/games/brawlstars/" target="_blank">Brawl Stars</a>.
+The abilities have a set of predefined behaviors that the user can configure through the <a href="https://github.com/ocornut/imgui" target="_blank">ImGui</a>-based interface. The set of properties was self-imposed by doing a <a href="/assets/a-s-v1-post/gifs/BrawlStarsAbilitiesPersonalBreakdown.gif" target="_blank">personal breakdown</a> of the character abilities and stats in <a href="https://supercell.com/en/games/brawlstars/" target="_blank">Brawl Stars</a>.
 
-![ability_creation_menu](/assets/a-s-v1-post/gifs/ability_creation_menu_small.gif)
-![player_stats_window_info](/assets/a-s-v1-post/images/player_stats_window_info.png)
+<p style="text-align: center;">
+    <img src="/assets/a-s-v1-post/gifs/ability_creation_menu_small.gif" alt="Missing Media">
+    <img src="/assets/a-s-v1-post/images/PlayerStatsWindow.png" alt="Missing Media">
+</p>
+
+The ability creation menu is dynamic and displays different settings based on the current settings, as to not overwhelm the user with all the information. Additionally, after play-testing my tool with a few designers, based on their feedback I added quality of life features that account for human error:
+
+<p style="text-align: center;" class="is-centered">
+    <img src="/assets/a-s-v1-post/images/warnings.png" alt="Missing Media">
+    <img src="/assets/a-s-v1-post/images/errors.png" alt="Missing Media">
+    <br>
+    <img src="/assets/a-s-v1-post/images/ConfirmOverrideWindow.png" alt="Missing Media">
+    <img src="/assets/a-s-v1-post/images/ToolTipExample.png" alt="Missing Media">
+    TootTip
+</p>
+
+After an ability is created and assigned to a player, the **Ability System** manages its lifetime, along with some additional visual elements.
+
+```
+void bee::AbilitySystem::Update(const float& dt)
+{
+    UpdateAmmoAndDisplayVisualEffects(dt);
+    UpdateAbilities(dt);
+    CheckInputToCreateAbilities();
+    DisplayVisualEffectsEditor();
+}
+```
+<br>
+
+The ability is then created by retrieving the **Ability Settings** from the **Ability Resource Manager** and assigning it its caster that is then used for hostile/friendly logic.
+
+```c++
+entt::entity abilityEntity = m_registry.create();
+auto& abilityComponent = m_registry.emplace<AbilityComponent>
+    (abilityEntity, castByPlayer, Engine.ResourceManager().GetAbilityManager().Get(abilityName).value());
+```
+<br>
+
+Its runtime behavior is then handled by the **UpdateAbilities** function, that has a lot of conditional code that is improved in the next version (<a href="{{ 'projects/2-AbilitySystemV2CoralEngine' | absolute_url }}">Ability System V2</a>).
+
+For example, for this ability below the system facilitates the creation of three bullets with a certain size
