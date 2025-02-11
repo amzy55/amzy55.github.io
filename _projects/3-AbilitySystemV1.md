@@ -79,3 +79,37 @@ The system is in charge of **creating** those **projectiles** with a certain **s
     <img src="/assets/a-s-v1-post/gifs/ShowcaseOfVariousAbilitiesAndEffects.gif" alt="Missing Media">
     <img src="/assets/a-s-v1-post/images/VisualEffectsEditor.png" alt="Missing Media">
 </p>
+
+#### Part 2: Custom Engine Development
+
+This system was done in my **ECS** <a href="https://github.com/skypjack/entt" target="_blank">EnTT</a> custom engine - I was in charge of the architecture of how I implement the idea of <br> **entities**, **components** and **systems** (having the graphics side provided by teachers).
+
+**Engine structure:**
+
+<p style="text-align: center;">
+    <img src="/assets/a-s-v1-post/images/engine_hierarchy.png" alt="Missing Media">
+</p>
+
+**GLTF loading** with **transform hierarchy:**
+
+<p style="text-align: center;">
+    <img src="/assets/a-s-v1-post/gifs/hierarchy_showcase.gif" alt="Missing Media">
+</p>
+
+**Particle system:**
+
+<p style="text-align: center;">
+    <img src="/assets/a-s-v1-post/gifs/particle-system-full-costumization.gif" alt="Missing Media">
+</p>
+
+I also implemented a **Resource Manager** and even a bit of **Lua Scripting** by binding some basic functionality like input and transforms.
+
+At the end of the project my engine could **create and manipulate entities**, with the foundation laid for **extra components and systems to be added in the future** - which is how I added the **ability system** explained above.
+
+**Engine showcase:**
+
+<p style="text-align: center;">
+    <img src="/assets/a-s-v1-post/gifs/engine_final.gif" alt="Missing Media">
+</p>
+
+While engine development is not my passion, I still enjoyed working on this project and **I learned so much from creating my own architecture** instead of just working with an existing code base.
