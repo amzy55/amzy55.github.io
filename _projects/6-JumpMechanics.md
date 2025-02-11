@@ -3,6 +3,7 @@ title: Jump Mechanics
 layout: project
 project-image: /assets/images/JumpMechanicsThumbnail.png
 project-gif: /assets/images/JumpMechanicsShowcase.gif
+project-link: https://amzy55.itch.io/2d-jump-mechanics
 description: Demonstration of the maths behind jumping using the quadratic equation.
 project-type: Personal Project
 engine-tool: Custom Engine (XS) - Wren
@@ -21,10 +22,7 @@ tags:
 
 <br>
 <p style="text-align: center;">
-    <a href="https://amzy55.itch.io/2d-jump-mechanics" target="_blank">Link to demo on Itch</a>
-    <br>
-    <br>
-    I gave a presentation on the project explaining the maths behind it to share my learnings with my fellow programmers.
+    I gave a presentation on the project explaining the maths behind it to share my learnings and presented it to fellow programmers.
     <br>
     <br>
     <iframe src="{{ "/assets/JumpMechanics/JumpMechanicsPresentation.pdf" | absolute_url }}" style="width: 100vw; height: 500px; border: none;"></iframe>

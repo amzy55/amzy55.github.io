@@ -3,6 +3,7 @@ title: Ability System V1 - My Custom Engine
 layout: project
 project-image: /assets/images/AbilitySystemV1Thumbnail.png
 project-gif: /assets/images/AbilitySystemV1Showcase.gif
+project-link: 
 description: "Part 1: A system that allows the creation and management of abilities with configurable predefined behavior via dynamic ImGui menus. <br> Part 2: Custom engine development."
 project-type: Personal/Student Project
 engine-tool: Custom Engine
@@ -55,11 +56,14 @@ The ability creation menu is **dynamic** and displays different **settings** bas
 
 After an ability is created and assigned to a player, the **Ability System** manages its lifetime, along with some additional visual elements. The ability is then created by retrieving the **Ability Settings** from the **Ability Resource Manager** and assigning it its caster that is then used for hostile/friendly logic.
 
+<div class="language-c++ highlighter-rouge">
 ```c++
 entt::entity abilityEntity = m_registry.create();
 auto& abilityComponent = m_registry.emplace<AbilityComponent>
     (abilityEntity, castByPlayer, Engine.ResourceManager().GetAbilityManager().Get(abilityName).value());
 ```
+</div>
+
 <br>
 
 Its runtime behavior is then handled by the **UpdateAbilities** function, that has a lot of conditional code that is improved in the next version (<a href="{{ 'projects/2-AbilitySystemV2CoralEngine' | absolute_url }}">Ability System V2</a>).

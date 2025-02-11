@@ -2,6 +2,7 @@
 title: RTS on RaspberryPi
 layout: project
 project-image: /assets/images/RTSThumbnail.png
+project-link: 
 project-gif: 
 description: 
 engine-tool: 

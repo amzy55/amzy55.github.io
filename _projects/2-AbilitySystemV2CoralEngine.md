@@ -2,7 +2,8 @@
 title: Ability System V2 - Coral Engine
 layout: project
 project-image: /assets/images/AbilitySystemV2Thumbnail.png
-project-gif: 
+project-gif: /assets/images/AbilitySystemV2Showcase.gif
+project-link: https://github.com/GuusKemperman/CoralEngine
 description: >
     "Part 1: A system that allows the creation and management of abilities expanded with the help of visual scripting. <br> 
     Part 2: My contributions to the engine."
@@ -26,8 +27,5 @@ key-responsibilities-2: >
 tags:
 ---
 
-[Coral Engine Github](https://github.com/GuusKemperman/CoralEngine)
-
-<div class="has-text-centered">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z4UFHaJ_ulQ?si=1LSgzoy8_2Ge7DN0" title="Lichgate Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
-</div>
+This is the second iteration of my ability system (made in a new custom engine - Coral), the first version can be found here - 
+<br><a href="{{ 'projects/3-AbilitySystemV1' | absolute_url }}">Ability System V1 - My Custom Engine</a>.

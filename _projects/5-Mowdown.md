@@ -3,6 +3,7 @@ title: Mowdown
 layout: project
 project-image: /assets/images/MowdownThumbnail.png
 project-gif: /assets/images/Mowdown1.gif
+project-link: https://mesibby.itch.io/mowdown
 description: 
 project-type: 
 engine-tool: 

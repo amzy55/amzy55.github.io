@@ -61,6 +61,12 @@ layout: compress
         
           <!-- GIF -->
           <div class="column is-three-fifths" style="transform: scale(1.1) translateX(-10px);">
+            <br>
+            {% if page.project-link %}
+              <a href="{{page.project-link}}" target="_blank">Github/Itch Link</a>
+            {% endif %}
+            <br>
+            <br>
             <a href="{{page.project-gif}}" target="_blank">
             <img src="{{page.project-gif}}" alt="Project GIF"></a>
           </div>
