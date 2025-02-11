@@ -56,13 +56,11 @@ The ability creation menu is **dynamic** and displays different **settings** bas
 
 After an ability is created and assigned to a player, the **Ability System** manages its lifetime, along with some additional visual elements. The ability is then created by retrieving the **Ability Settings** from the **Ability Resource Manager** and assigning it its caster that is then used for hostile/friendly logic.
 
-<div class="language-c++ highlighter-rouge">
 ```c++
 entt::entity abilityEntity = m_registry.create();
 auto& abilityComponent = m_registry.emplace<AbilityComponent>
     (abilityEntity, castByPlayer, Engine.ResourceManager().GetAbilityManager().Get(abilityName).value());
 ```
-</div>
 
 <br>
 
