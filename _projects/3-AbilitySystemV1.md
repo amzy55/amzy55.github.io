@@ -53,20 +53,7 @@ The ability creation menu is **dynamic** and displays different **settings** bas
     TootTip
 </p>
 
-After an ability is created and assigned to a player, the **Ability System** manages its lifetime, along with some additional visual elements.
-
-```
-void bee::AbilitySystem::Update(const float& dt)
-{
-    UpdateAmmoAndDisplayVisualEffects(dt);
-    UpdateAbilities(dt);
-    CheckInputToCreateAbilities();
-    DisplayVisualEffectsEditor();
-}
-```
-<br>
-
-The ability is then created by retrieving the **Ability Settings** from the **Ability Resource Manager** and assigning it its caster that is then used for hostile/friendly logic.
+After an ability is created and assigned to a player, the **Ability System** manages its lifetime, along with some additional visual elements. The ability is then created by retrieving the **Ability Settings** from the **Ability Resource Manager** and assigning it its caster that is then used for hostile/friendly logic.
 
 ```c++
 entt::entity abilityEntity = m_registry.create();
@@ -89,6 +76,6 @@ The system is in charge of **creating** those **projectiles** with a certain **s
 **Showcase of various abilities and their effects:**
 
 <p style="text-align: center;">
-    <img src="/assets/a-s-v1-post/gifs/ability_system_final_showcase_zoom_2.gif" alt="Missing Media">
+    <img src="/assets/a-s-v1-post/gifs/ShowcaseOfVariousAbilitiesAndEffects.gif" alt="Missing Media">
     <img src="/assets/a-s-v1-post/images/VisualEffectsEditor.png" alt="Missing Media">
 </p>
