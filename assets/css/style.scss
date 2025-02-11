@@ -423,6 +423,12 @@ a.navbar-item.is-active {
         max-width: 70vmax;
     }
 
+    @media (max-width: 768px) {
+        .container {
+            max-width: calc(100% - 5vw); /* Make it wider on mobile */
+        }
+    }
+
     #disqus_thread {
         margin-top: 5vmax;
     }
