@@ -8,13 +8,9 @@ project-link:
 description: Defeat hordes of enemies alongside your friends in this cooperative FPS game.
 project-type: Student Game
 engine-tool: Unreal Engine
-year: 2024-2025 (Work In Progress)
+year: 2024-2025 (WIP)
 team-size: 22 team members
-team-breakdown: >
-    23 -> 
-    6 programmers,
-    7 designers &
-    10 artists
+team-breakdown: 23 -> 6 programmers, 7 designers & 10 artists
 duration: 4 + 4 months
 key-responsibilities-1: >
     <li>Unreal's Gameplay Ability System (GAS)</li>
