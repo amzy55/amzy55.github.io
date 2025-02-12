@@ -128,7 +128,13 @@ All the parts came together and me and my team created a demo for our engine whe
 
 <a href="https://youtu.be/rJIwqo12_dk?si=efPG4NIHhAW-Vdq8" target="_blank">Demo Video</a>
 
-#### Part 2: My Contributions Coral Engine
+#### Part 2: Coral Engine
+
+<div class="has-text-centered">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z4UFHaJ_ulQ?si=1LSgzoy8_2Ge7DN0" title="Lichgate Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</div>
+
+#### My Contributions to Coral Engine
 
 While most of my time was spent of the Ability System, I contributed to the engine in other ways too.
 

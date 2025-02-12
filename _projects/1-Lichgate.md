@@ -21,8 +21,49 @@ key-responsibilities-2: >
 tags:
 ---
 
-<div class="has-text-centered">
+<!--<div class="has-text-centered">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/QzNdgcYAYl4?si=wdbvH2UHfL4PfGgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 </div>
+-->
 
 Lichgate is a top-down action rogue-like where you fight hoards of enemies and upgrade your power to emerge victorious. It was made with [Coral Engine](https://github.com/GuusKemperman/CoralEngine), a custom engine me and my teammates made, but I talk more about that in the [Ability System V2 in Coral Engine](../projects/AbilitySystemV2CoralEngine) project, now it's about the creation of the game itself.
+
+I had to adapt my **Ability System** to the needs of our game and development and I upgraded it with a **Weapon System**.
+
+After discussing with our designers what exactly the main abilities of the player will be, I decided that a more specialized system is needed. 
+
+**Weapon System**
+
+<p style="text-align: center;">
+    <img src="/assets/Lichgate/LichgateAbilitySystem.gif" alt="Missing Media">
+</p>
+
+I build the Weapon System on top of the Ability System, since we knew that the player's main combat abilities will all have the same structure of a weapon, but still kept the base system for general-purpose abilities like for the AI.
+
+I had previously gotten the feedback that it is sometimes hard to keep track of all the variables of an ability, and the player abilities would need a lot of tweaking, so I made this **new interface**.
+
+<p style="text-align: center;">
+    <img src="/assets/Lichgate/WeaponEditor.png" alt="Missing Media">
+</p>
+
+**Designers were able to seamlessly work with my tool** and make the necessary tweaks without the support of a programmer, which was often not the case for some of our other engine features, as it was all new to them. 
+
+**Upgrade System**
+
+Following the <a href="https://youtu.be/rJIwqo12_dk?si=efPG4NIHhAW-Vdq8" target="_blank">Vampire Survivors</a>/<a href="https://store.steampowered.com/app/1966900/20_Minutes_Till_Dawn/" target="_blank">20 Minutes Till Dawn</a> structure, we also needed upgrades in our game, which I implemented.vThe upgrades used a **power level system** - the higher the level, the more powerful the upgrade, and new ones get unlocked depending on your choices.
+
+<p style="text-align: center;">
+    <img src="/assets/Lichgate/UpgradeLevels.png" alt="Missing Media">
+</p>
+
+<p style="text-align: center;">
+    <img src="/assets/Lichgate/UpgradeEditor.png" alt="Missing Media">
+</p>
+
+<p style="text-align: center;">
+    <img src="/assets/Lichgate/UpgradeScript.png" alt="Missing Media">
+</p>
+
+<p style="text-align: center;">
+    <img src="/assets/Lichgate/UpgradeUI.png" alt="Missing Media">
+</p>
