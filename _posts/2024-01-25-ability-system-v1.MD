@@ -309,7 +309,9 @@ Function ApplyAmount(ability: AbilitySettings, hitPlayerStats: PlayerStatsCompon
 
 There are a lot of calculations going on in this function to ensure the effect has the proper value and it is allowed to be applied (ex: the player is not invulnerable).
 
-![ability_system_final_showcase_2](/assets/a-s-v1-post/gifs/ability_system_final_showcase_zoom_2.gif)
+<p id="PhysicsSystem">
+    <img src="/assets/a-s-v1-post/gifs/ability_system_final_showcase_zoom_2.gif" alt="Missing Media">
+</p>
 
 This concludes the logic of the **Ability System**. Next I want to talk about the **Physics System** and how I decided to implement it in my project.
 
