@@ -3,7 +3,7 @@ title: RTS on RaspberryPi
 layout: project
 project-image: /assets/images/RTSThumbnail.png
 project-gif: /assets/images/RTSShowcase.gif
-project-link: 
+project-link: https://github.com/amzy55/RTS3D
 description: A physics-based Real-Time-Strategy game developed on the RaspberryPi. This project is my first ever 3D game.
 project-type: Student Project
 engine-tool: Custom Framework (C++)
