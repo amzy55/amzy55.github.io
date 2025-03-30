@@ -21,8 +21,4 @@ tags:
 
 ---
 
-*This is a work in progress - the game will be released in June 2025*
-
-My biggest contribution until now to the project was the integration and maintenance of the **Gameplay Ability System (GAS)** in our game.
-
-*More content to be added* 
+*This is a work in progress - the game will be released in June 2025. If you are interested to know more, I'd love to have a chat about it.*

@@ -1,0 +1,10 @@
+// Online Multiplayer Shooter
+
+
+
+My biggest contribution to the project was the integration and maintenance of the **Gameplay Ability System (GAS)** in our game. I made the decision that we would benefit from its use, considering both positives and negatives. GAS quite a steep learning curve that I knew would initially slow us down, but all the backend networking handling that it brings outweighed that. After having used it for almost half a year, I am happy to have made that decision.
+
+Talk about:
+- Where the ability system component is stored on the enemies vs the player
+- Attributes are initialized with a data table
+- Features I worked on - downed state & player revive, moral system (show how i had to manually handle replication), general replication help/implementation, ADS
