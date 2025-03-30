@@ -1,5 +1,5 @@
 ---
-title: Online Multiplayer Shooter
+title: Umbra Mortis - Online Multiplayer Shooter
 layout: project
 project-image: /assets/images/ShooterThumbnail.png
 project-gif: /assets/Shooter/OnlineCOOPShooter.gif
