@@ -21,4 +21,19 @@ tags:
 
 ---
 
-*This is a work in progress - the game will be released in June 2025. If you are interested to know more, I'd love to have a chat about it.*
+***This is a work in progress - the game will be released in June 2025. If you are interested to know more, I'd love to have a chat about it.***
+
+My biggest contribution to the project was the integration and maintenance of the **Gameplay Ability System (GAS)** in our game.
+
+<p style="text-align: center;">
+    <img src="/assets/Shooter/GameplayEffects.png" alt="Missing Media">
+    <img src="/assets/Shooter/CharacterAttributeSet.png" alt="Missing Media">
+</p>
+<p style="text-align: center;">
+</p>
+
+I also learned a lot about **replication** when implementing gameplay features. One example is the downed state when a player dies:
+
+<p style="text-align: center;">
+    <img src="/assets/Shooter/GreyHealthDepleting.gif" alt="Missing Media">
+</p>
