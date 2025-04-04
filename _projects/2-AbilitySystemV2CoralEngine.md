@@ -3,7 +3,8 @@ title: Ability System V2 - Coral Engine
 layout: project
 project-image: /assets/images/AbilitySystemV2Thumbnail.png
 project-gif: /assets/images/AbilitySystemV2Showcase.gif
-project-link: https://github.com/GuusKemperman/CoralEngine
+github-link: https://github.com/GuusKemperman/CoralEngine
+itch-link: 
 description: >
     "Part 1: A system that allows the creation and management of abilities expanded with the help of visual scripting. <br> 
     Part 2: My contributions to the engine."
@@ -131,7 +132,7 @@ All the parts came together and me and my team created a demo for our engine whe
 #### Part 2: Coral Engine
 
 <div class="has-text-centered">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z4UFHaJ_ulQ?si=1LSgzoy8_2Ge7DN0" title="Lichgate Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Z4UFHaJ_ulQ?si=1LSgzoy8_2Ge7DN0" title="Coral Engine Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
 </div>
 
 #### My Contributions to Coral Engine

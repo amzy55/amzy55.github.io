@@ -62,8 +62,14 @@ layout: compress
           <!-- GIF -->
           <div class="column is-three-fifths" style="transform: scale(1.1) translateX(-10px);">
             <br>
-            {% if page.project-link %}
-              <a href="{{page.project-link}}" target="_blank">Github/Itch Link</a>
+            {% if page.github-link %}
+              <a href="{{page.github-link}}" target="_blank">Github Link</a>
+            {% endif %}
+            {% if page.itch-link %}
+              <a href="{{page.itch-link}}" target="_blank">Itch Link</a>
+            {% endif %}
+            {% if page.steam-page %}
+              <a href="{{page.steam-page}}" target="_blank">Steam Page</a>
             {% endif %}
             <br>
             <br>

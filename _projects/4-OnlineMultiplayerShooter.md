@@ -3,7 +3,8 @@ title: Umbra Mortis - Online Multiplayer Shooter
 layout: project
 project-image: /assets/images/ShooterThumbnail.png
 project-gif: /assets/Shooter/OnlineCOOPShooter.gif
-project-link: 
+github-link: 
+itch-link:  
 description: Defeat hordes of enemies alongside your friends in this cooperative FPS game.
 project-type: Student Game
 engine-tool: Unreal Engine

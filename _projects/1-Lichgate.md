@@ -3,7 +3,8 @@ title: Lichgate
 layout: project
 project-image: /assets/images/LichgatePoweredByCoralEngine.png
 project-gif: /assets/images/lichgate.gif
-project-link: https://buas.itch.io/lichgate
+github-link: 
+itch-link: https://buas.itch.io/lichgate
 description: An action rogue-like where you must grow stronger to vanquish the undead.
 project-type: Released Student Game
 engine-tool: Custom Engine (Coral)
