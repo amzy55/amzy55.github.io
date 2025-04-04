@@ -3,7 +3,7 @@ title: Ability System V1 - My Custom Engine
 layout: project
 project-image: /assets/images/AbilitySystemV1Thumbnail.png
 project-gif: /assets/images/AbilitySystemV1Showcase.gif
-github-link: 
+github-link: https://github.com/amzy55/ECSCutomEngine
 itch-link: 
 description: "Part 1: A system that allows the creation and management of abilities with configurable predefined behavior via dynamic ImGui menus. <br> Part 2: Custom engine development."
 project-type: Personal/Student Project
