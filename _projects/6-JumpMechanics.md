@@ -21,7 +21,10 @@ tags:
 
 ---
 
-<br>
+<p style="text-align: center;">
+    <iframe style="border: 2px solid hsl(0, 0%, 71%); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 5px;" src="https://itch.io/embed/3069808?linkback=true&amp;link_color=e40089" width="552" height="167"><a href="https://amzy55.itch.io/2d-jump-mechanics">2D Jump Mechanics by Amzy Amalia Zarcu</a></iframe>
+</p>
+
 <p style="text-align: center;">
     I gave a presentation on the project explaining the maths behind it to share my learnings and presented it to fellow programmers.
     <br>
