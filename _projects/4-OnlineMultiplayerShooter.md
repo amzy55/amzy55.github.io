@@ -21,7 +21,12 @@ tags:
 
 ---
 
-***This is a work in progress - the game will be released in June 2025. If you are interested to know more, I'd love to have a chat about it.***
+<p style="text-align: center;">
+    <iframe src="https://store.steampowered.com/widget/3365870/" frameborder="0" width="646" height="190"></iframe>
+    <br>
+    <i>This page is a work in progress.</i>
+</p>
+
 
 My biggest contribution to the project was the integration and maintenance of the **Gameplay Ability System (GAS)** in our game.
 
