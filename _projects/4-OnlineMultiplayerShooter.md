@@ -2,7 +2,7 @@
 title: Umbra Mortis - Online Multiplayer Shooter
 layout: project
 project-image: /assets/images/UmbraMortisThumbnail.png
-project-gif: /assets/Shooter/OnlineCOOPShooter.gif
+project-gif: /assets/Shooter/UmbraMortisTrailerShort.gif
 steam-page: https://store.steampowered.com/app/3365870/Umbra_Mortis/
 description: Defeat hordes of enemies alongside your friends in this cooperative FPS game.
 project-type: Student Game
