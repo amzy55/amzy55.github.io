@@ -170,7 +170,7 @@ Showcase:
     <img src="/assets/ASV2/PhysicsSystemShowcase.gif" alt="Missing Media">
 </p>
 
-We decided to go for a 2D physics system because we were developing an engine specifically for top down games - you can read more about my journey with figuring out what approach I should take to physics in this blog I made - <a href="{{ 'blog/ability-system-v1#PhysicsSystem' | absolute_url }}"> Ability System Blog Post 25 Jan 2024 - Physics System</a>.
+We decided to go for a 2D physics system because we were developing an engine specifically for top down games - you can read more about my journey with figuring out what approach I should take to physics in this blog I made - <a href="{{ 'blog/ability-system-v1#PhysicsSystem' | absolute_url }}" target="_blank"> Ability System Blog Post 25 Jan 2024 - Physics System</a>.
 
 **Quality of Life Features**
 
