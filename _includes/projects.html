@@ -5,9 +5,13 @@
         </div>
     </div>
     <div id="results-container"></div>
-    <!--Project Cards Section-->
-    {% for project in site.projects %}
-        {% include project-card.html %}
-    {% endfor %}
+    <!--Project Cards-->
+    <!--Write the titles in the preferred display order.--> <!--I considered doing it with an "order" variable that would have to be set in each project, but that seems more bothersome to maintain.-->
+        {% assign projects_in_order = 
+            "Lichgate,Ability System V2 - Coral Engine,Ability System V1 - My Custom Engine,Umbra Mortis - Online Multiplayer Shooter,Mowdown,Jump Mechanics,RTS on RaspberryPi" | split: "," %} 
+        {% for id in projects_in_order %} 
+            {% assign project = site.projects | where: "title", id | first %} 
+            {% include project-card.html%} 
+        {% endfor %}
     </div>
 </section>
