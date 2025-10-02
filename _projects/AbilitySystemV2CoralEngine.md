@@ -31,7 +31,7 @@ tags:
 <div class="columns">
     <div class="column has-text-centered">
         This is the second iteration of my ability system (made in a new custom engine - Coral), the first version can be found here:  
-        <br><a href="{{ 'projects/3-AbilitySystemV1' | absolute_url }}">Ability System V1 - My Custom Engine</a>.
+        <br><a href="{{ 'projects/AbilitySystemV1' | absolute_url }}">Ability System V1 - My Custom Engine</a>.
     </div>
     <div class="column content is-narrow">
         <div style="
@@ -41,7 +41,7 @@ tags:
     </div>
     <div class="column has-text-centered">
         The system is later improved again, as well as expanded into a Weapon System for the game Lichgate, the next version can be found here: 
-        <br><a href="{{ 'projects/1-Lichgate' | absolute_url }}">Lichgate - Weapon System</a>.
+        <br><a href="{{ 'projects/Lichgate' | absolute_url }}">Lichgate - Weapon System</a>.
     </div>
 </div>
 
@@ -174,7 +174,7 @@ We decided to go for a 2D physics system because we were developing an engine sp
 
 **Quality of Life Features**
 
-We were initially only programmers working on our engine, but if the engine proved good enough we had the opportunity to take it into the next project to create a game with other disciplines as well - which we succeeded in with <a href="{{ 'projects/1-Lichgate' | absolute_url }}">Lichgate</a>. But in order to achieve that me and one other teammate made sure to play-test our engine with artists and designers too.
+We were initially only programmers working on our engine, but if the engine proved good enough we had the opportunity to take it into the next project to create a game with other disciplines as well - which we succeeded in with <a href="{{ 'projects/Lichgate' | absolute_url }}">Lichgate</a>. But in order to achieve that me and one other teammate made sure to play-test our engine with artists and designers too.
 
 For example artists requested better support of the **gizmo snapping** - initially **the input was three values for each axis XYZ**, and even though I could see the thought behind it to give more flexibility to user, it just simply was not intuitive and it made the workflow slower. The snapping value was also **shared between the three transforms** (Translation, Rotation, Scale), so you couldn't have different values for them.
 
@@ -200,4 +200,4 @@ I also pushed for us to have read-only values, which might seem like a small det
     <img src="/assets/ASV2/ReadOnlyValues.png" alt="Missing Media">
 </p>
 
-Alongside having a powerful and extensive engine, ensuring non-programmers can work with our tools has put me and my team ahead of the curve and we were able to go on to the next project and actually **develop our game <b><a href="{{ 'projects/1-Lichgate' | absolute_url }}">Lichgate</a></b> with Coral**!
+Alongside having a powerful and extensive engine, ensuring non-programmers can work with our tools has put me and my team ahead of the curve and we were able to go on to the next project and actually **develop our game <b><a href="{{ 'projects/Lichgate' | absolute_url }}">Lichgate</a></b> with Coral**!

@@ -26,7 +26,7 @@ tags:
     <iframe style="border: 2px solid hsl(0, 0%, 71%); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 5px;" src="https://itch.io/embed/2765132?linkback=true&amp;link_color=e40089" width="552" height="167"><a href="https://buas.itch.io/lichgate">Lichgate by Breda University of Applied Sciences, Harrybaas, GuusKemperman, StezNeo, Amzy Amalia Zarcu, kazemurai, Nikola Tunev, Karolina Motužytė, MarcinZalewski, GodOfErrors, Agatin</a></iframe>
 </p>
 
-Lichgate is a top-down action rogue-like where you fight hoards of enemies and upgrade your power to emerge victorious. It was made with [Coral Engine](https://github.com/GuusKemperman/CoralEngine), a custom engine me and my teammates made, but I talk more about that in the [Ability System V2 in Coral Engine](../projects/2-AbilitySystemV2CoralEngine) project, now it's about the creation of the game itself.
+Lichgate is a top-down action rogue-like where you fight hoards of enemies and upgrade your power to emerge victorious. It was made with [Coral Engine](https://github.com/GuusKemperman/CoralEngine), a custom engine me and my teammates made, but I talk more about that in the [Ability System V2 in Coral Engine](../projects/AbilitySystemV2CoralEngine) project, now it's about the creation of the game itself.
 
 I had to adapt my **Ability System** to the needs of our game and development and I upgraded it with a **Weapon System**.
 
@@ -76,7 +76,7 @@ After the initial implementation, **designers were able to seamlessly work with 
     <img src="/assets/Lichgate/AbilityAssets.png" alt="Missing Media">
 </p>
 
-For a breakdown of abilities refer to this project page - [Ability System V2 in Coral Engine](../projects/2-AbilitySystemV2CoralEngine).
+For a breakdown of abilities refer to this project page - [Ability System V2 in Coral Engine](../projects/AbilitySystemV2CoralEngine).
 
 #### Upgrade System
 

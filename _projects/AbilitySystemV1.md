@@ -30,7 +30,7 @@ tags:
 ---
 
 This is my first implementation on an ability system, the improved version can be found here - 
-<br><a href="{{ 'projects/2-AbilitySystemV2CoralEngine' | absolute_url }}">Ability System V2 - Coral Engine</a>.
+<br><a href="{{ 'projects/AbilitySystemV2CoralEngine' | absolute_url }}">Ability System V2 - Coral Engine</a>.
 
 Check out the blog I wrote about my process of creating this system here - 
 <br><a href="{{ 'blog/ability-system-v1' | absolute_url }}"> Ability System Blog Post 25 Jan 2024</a>.
@@ -65,7 +65,7 @@ auto& abilityComponent = m_registry.emplace<AbilityComponent>
 
 <br>
 
-Its runtime behavior is then handled by the **UpdateAbilities** function, that has a lot of conditional code that is improved in the next version (<a href="{{ 'projects/2-AbilitySystemV2CoralEngine' | absolute_url }}">Ability System V2</a>).
+Its runtime behavior is then handled by the **UpdateAbilities** function, that has a lot of conditional code that is improved in the next version (<a href="{{ 'projects/AbilitySystemV2CoralEngine' | absolute_url }}">Ability System V2</a>).
 
 For example, for this ability below the system facilitates the **`  `** with the following settings:
 
