@@ -4,7 +4,7 @@ layout: project
 project-image: /assets/images/UmbraMortisThumbnail.png
 project-gif: /assets/Shooter/UmbraMortisTrailerShort.gif
 steam-page: https://store.steampowered.com/app/3365870/Umbra_Mortis/
-description: Defeat hordes of enemies alongside your friends in this cooperative FPS game.
+description: Battle alongside your friends to cleanse Venice of the hordes of masked undead in this thrilling online co-op FPS.
 project-type: Student Game
 engine-tool: Unreal Engine
 year: 2024-2025 (WIP)
