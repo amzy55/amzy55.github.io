@@ -1,4 +1,19 @@
 <section class="hero is-fullheight" id="projects">
+    <!--Experience-->
+    <div class="hero-body">
+        <div class="container">
+            {% include experience-heading.html %}
+        </div>
+    </div>
+    <div id="results-container"></div>
+    <!--Experience Cards Section-->
+    <div>
+        {% for project in site.experience %}
+            {% include project-card.html %}
+        {% endfor %}
+    </div>
+
+    <!--Projects-->
     <div class="hero-body">
         <div class="container">
             {% include projects-heading.html %}

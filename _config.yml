@@ -58,6 +58,9 @@ collections:
   projects:
     output: true
     permalink: projects/:path.html
+  experience:
+    output: true
+    permalink: experience/:path.html
 
 # Compress
 compress_html:

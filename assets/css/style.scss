@@ -134,14 +134,12 @@ a.navbar-item.is-active {
         outline: 1px solid black;
     }
 }
-
-#projects-heading {
-    .custom-line {
-        height: 2px;
-        width: 150px;
-        background-color: gray;
-        margin: 20px auto;
-      }
+#projects-heading .custom-line,
+#experience-heading .custom-line {
+    height: 2px;
+    width: 150px;
+    background-color: gray;
+    margin: 20px auto;
 }
 
 #projects {
